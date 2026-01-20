@@ -1,0 +1,188 @@
+#container {
+    max-width: 1200px;
+    max-height: 750px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #0d4d7f ;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+a {
+    color: #0072cc;
+    text-decoration: none;
+}
+
+#journal {
+    max-width: 600px;
+    border: 2px solid #0072cc;
+    padding: 1.5% 3.5%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.banner img {
+    display: block;
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+.banner-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#neutral {
+    position: absolute;
+    top: 30%;
+    left: -2%;
+}
+
+@keyframes smileAnimation {
+    0% {opacity: 0;}
+    25% {opacity: 15;}
+    50% {opacity: -15;}
+    75% {opacity: 35;}
+    100% {opacity: 100;}
+}
+
+#smile {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+#smile img {
+    opacity: 100;
+    animation-name: smileAnimation;
+    animation-duration: 4s;
+}
+
+#top-swoop {
+    position: absolute;
+    top: -45%;
+    left: 15%;
+}
+
+@keyframes alrightAnimation {
+    0% {transform: translateX(0) translateY(0);}
+    100% {transform: translateX(-200px) translateY(-200px);}
+}
+
+#alright {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#alright img {
+    transition: transform 4s ease-in-out;
+    transform: translateX(0) translateY(0)
+}
+
+#alright img:hover {
+    transform: translateX(200px) translateY(-200px);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    min-height: 100%;
+    padding: 5% 8%;
+
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+header {
+    color: white;
+}
+
+h1 {
+    font-family: "BBH Hegarty", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    top: 20px;
+    margin: 0;
+}
+
+section {
+    flex: 1;
+    margin: 40px 200px 40px 200px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: normal;
+    margin: 2% 0 0 0;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 20px 0px 10px;
+}
+
+ul li {
+    list-style-image: url('images/bullet.svg');
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0d4d7f ;
+    line-height: 41px;
+}
+
+ul{
+    margin: 0 0 37px 0;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #0d4d7f ;
+}
+
+footer p {
+    color: #dfe8ef;
+}
+.footer-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer-banner {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
