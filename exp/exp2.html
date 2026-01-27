@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    
+    <h1 id="nameQuestion"></h1>
+    <h2 id="hospitalityQuestion"></h2>
+    <script>
+        // <!-- JS Function Challenge 16 with responses moved from console to html document -->
+        var yourName = prompt('What is your name?', '');
+        var food = ['spring rolls', 'potroast', 'kale'];
+        function hello(name){
+            var greeting;
+            if (name == null || name == ''){
+                console.log("You didn't give me your name");
+            } else {
+                var greetingOne = document.querySelector('#nameQuestion')
+                greetingOne.innerHTML = (`Hello ${name}, and welcome!`);
+            }
+            return greeting;
+        }
+        
+        function randomInt( min, max ){
+            var numOfValues = max - min + 1;
+            var randomNum = Math.random();
+            var randomVal = randomNum * numOfValues;
+            var roundedRandomVal = Math.floor(randomVal);
+            var finalNum = min + roundedRandomVal;
+            return finalNum;
+        }
+
+        function hospitality(name, gift){
+            console.log( hello(name));
+            var randomGift = gift[randomInt(0, gift.length-1)];
+            var greetingTwo = document.querySelector('#hospitalityQuestion')
+            greetingTwo.innerHTML = (`${name}, would you like some ${randomGift}?`);
+            }
+        
+        hospitality(yourName, food);
+    </script>
+    
+</body>
+</html>
