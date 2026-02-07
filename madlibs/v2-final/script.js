@@ -3,7 +3,7 @@
     console.log('reading js');
 
     const filledForm = document.querySelector('form');  
-    const getMad = document.querySelector('main');
+    const getMad = document.querySelector('endPage');
 
     const blurP = document.querySelectorAll('p');
     for(var i = 0; i < blurP.length -1; i++){
@@ -71,7 +71,7 @@
             myText = "please provide a noun";
             document.querySelector('#tNoun').focus();
         } else {
-            myText = `you typed the words ${fAdjective}, ${sNoun}, ${fVerb}, and ${interjection}`
+            // myText = `you typed the words ${fAdjective}, ${sNoun}, ${fVerb}, and ${interjection}`
             // document.querySelector('#interjection').value = '';
             // document.querySelector('#number').value = '';
             // document.querySelector('#fNoun').value = '';
@@ -85,7 +85,7 @@
             // document.querySelector('#tNoun').value = '';
             removeBlur(); 
         }
-
+        getMad.innerHTML = myText;
         
     })
     getMad.innerHTML = myText;

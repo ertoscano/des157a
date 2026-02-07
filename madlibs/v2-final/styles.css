@@ -28,6 +28,33 @@ form {
     padding-left: 30px;
 }
 
+#endPage {
+    display: flex;
+}
+
+#reset {
+    border: 2px solid #0072cc;
+    /* box-sizing: border-box;  */
+    padding: 10px;
+    max-height: 100px;
+    margin-right: 10px;   
+}
+
+#reset input {
+    border: none;
+} 
+
+#reset input:hover {
+    border: 2px solid #0072cc;
+    background-color: #0072cc;
+    color: #dfe8ef;
+}
+
+#reset:focus {
+    font-weight: bold;
+    box-shadow: 0 3px 3px 0 #0d4d7f, 0 3px 3px 0 #0d4d7f;
+}
+
 input {
     display: inline-block;
     border: 2px transparent;
@@ -46,6 +73,7 @@ input {
     /* box-sizing: border-box;  */
     padding: 10px;
     max-height: 100px;
+    margin-right: 10px;
 }
 
 #submit input:hover {
