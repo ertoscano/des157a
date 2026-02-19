@@ -14,16 +14,44 @@ p {
     font-size: 15px;
 }
 
+#text1, #text2, #text3, #complete{
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    max-width: fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0072cc;
+    border-width: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+#text1 {
+
+}
+
+.hide{
+    display: none;
+}
+
+#text2 {
+
+}
+
+#text3 {
+
+}
+
 a {
     color: #0072cc;
     text-decoration: none;
 }
 
-#journal {
+/* #journal {
     max-width: 600px;
     border: 2px solid #0072cc;
     padding: 1.5% 3.5%;
-}
+} */
 
 .banner {
     position: relative;
@@ -126,25 +154,123 @@ main {
     position: relative;
 }
 
-#base {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+#img1{
+    
 }
 
-.overlay {
+/* #base {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+} */
+
+#red-fish {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: #0072cc 5px solid;
+}
+
+#blue-fish{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     mix-blend-mode: screen;
 }
+
+#green-fish {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    mix-blend-mode: screen;
+    
+}
+
+#red-truck {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: #0072cc 5px solid;
+}
+
+#blue-truck {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    mix-blend-mode: screen;
+    
+}
+
+#green-truck {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    mix-blend-mode: screen;
+}
+
+#red-carry {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: #0072cc 5px solid;
+}
+
+#blue-carry {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+
+#green-carry {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    mix-blend-mode: screen;
+}
+
+/* .overlay {
+    mix-blend-mode: screen;
+} */
 
 img {
     display: block;
     height: auto;
     max-width: 100%;
+    transition: 0.1s ease;
+}
+
+/* #image-container{
+
+} */
+
+
+#img3 img:hover {
+    box-shadow: 0 0 15px 10px #0072cc;
+}
+
+#img2 img:hover {
+    box-shadow: 0 0 15px 10px #0072cc;
+}
+
+#img1 img:hover {
+    box-shadow: 0 0 15px 10px #0072cc;
 }
 
 header {
