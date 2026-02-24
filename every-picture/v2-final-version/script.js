@@ -2,6 +2,8 @@
     'use strict'
     console.log('reading js')
 
+    //Click the image to reveal next image
+
     document.querySelector('#red-truck').addEventListener('click', function(event){
         event.preventDefault();
         document.querySelector('#green-truck').className = 'show';
@@ -63,14 +65,16 @@
         
     });
 
-    let overlay1Ready = 0;
-    let overlay2Ready = 0;
-    let overlay3Ready = 0;
+    //I tried making it so when all the text are showing then the final conclusion text shows.
+
+    // let overlay1Ready = 0;
+    // let overlay2Ready = 0;
+    // let overlay3Ready = 0;
     
-    if (overlay1Ready === 1 && overlay2Ready === 1 && overlay3Ready === 1){
-        document.querySelector('#complete').className = 'show';
-        console.log('complete')
-    }
+    // if (overlay1Ready === 1 && overlay2Ready === 1 && overlay3Ready === 1){
+    //     document.querySelector('#complete').className = 'show';
+    //     console.log('complete')
+    // }
     
 
 
