@@ -12,14 +12,6 @@ body{
     opacity: 74%;
 }
 
-/* #guitar{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-} */
-
 #game-background {
     position: absolute;
     top: 50%;
@@ -55,6 +47,46 @@ body{
     transform: translate(-50%, -50%);
 }
 
+#level-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 72%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#level-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 84%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#score-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#score-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 47%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
 .btn{
     transition: all 0.3s ease;
     transform-origin: center;
@@ -67,6 +99,136 @@ body{
     background-color: #362509;
     box-shadow: -6px 6px 5px 5px #362509;
 }
+
+.btnstyle {
+    border-radius: 50%;
+    border: none;
+}
+
+#heart1 {
+    position: absolute;
+    top: 35%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#heart2 {
+    position: absolute;
+    top: 47.5%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#heart3 {
+    position: absolute;
+    top: 60%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#note-1{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#note-2 {
+    position: absolute;
+    top: 76%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+#note-3 {
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+#note-4 {
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+
+#game-area-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pink-off:hover {
+    cursor: url('images/pink-hover-pick.svg'), auto;
+}
+
+#teal-off:hover {
+    cursor: url('images/teal-hover-pick.svg'), auto;
+}
+
+#green-off:hover {
+    cursor: url('images/green-hover-pick.svg'), auto;
+}
+
+#red-off:hover {
+    cursor: url('images/red-hover-pick.svg'), auto;
+}
+
+#blue-off:hover {
+    cursor: url('images/blue-hover-pick.svg'), auto;
+}
+
+#yellow-off:hover {
+    cursor: url('images/yellow-hover-pick.svg'), auto;
+}
+
+
+#pink-off {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#teal-off {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#green-off {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+#red-off {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+#blue-off {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#yellow-off {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
 
 #play{
     position: absolute;
@@ -119,13 +281,42 @@ body{
 
 #game-area{
     position: relative;
-    max-width: 586px;
-    max-height: 750px;
+    width: 435px;
+    height: 312px;
     margin: 0 auto 0 auto;
 }
 
-#pink-off{
-    top: 70%;
-    left: 58.5%;
+#game-end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-1 {
+    position: absolute;
+    top: 52%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-2 {
+    position: absolute;
+    top: 74%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-3 {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-4 {
+    position: absolute;
+    top: 80%;
+    left: 84%;
     transform: translate(-50%, -50%);
 }

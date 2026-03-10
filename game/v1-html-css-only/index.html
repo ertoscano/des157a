@@ -9,7 +9,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap" rel="stylesheet">
     <!-- style sheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -29,39 +29,53 @@
                 <!-- <button id="info"></button>
                 <button id="restart"></button>
                 <button id="addLife"></button> -->
-                <!-- <div id="game-background"><img src="images/game-background-100.jpg" alt="guitar" width="1200" height="750"></div> -->
+                <div id="game-background"><img src="images/game-background-100.jpg" alt="guitar" width="1200" height="750"></div>
                 <div id="add-heart" class="btn"><img src="images/add-heart-btn.svg" alt="add heart button" width="205" height="154"></div>
-                <div id="home" class="btn"><img src="images/home-btn.svg" alt="home button" width="152" height="152"></div>
-                <div id="heart"><img src="images/heart-icon.svg" alt="heart icon" width="72" height="66"></div>
+                <div id="heart1"><img src="images/heart-icon.svg" alt="heart icon" width="72" height="66"></div>
+                <div id="heart2"><img src="images/heart-icon.svg" alt="heart icon" width="72" height="66"></div>
+                <div id="heart3"><img src="images/heart-icon.svg" alt="heart icon" width="72" height="66"></div>
                 <div id="note-1"><img src="images/note-1.svg" alt="note 1 button" width="61" height="63"></div>
                 <div id="note-2"><img src="images/note-2.svg" alt="note 2 button" width="61" height="57"></div>
                 <div id="note-3"><img src="images/note-3.svg" alt="note 3 button" width="57" height="62"></div>
                 <div id="note-4"><img src="images/note-4.svg" alt="note 4 button" width="32" height="79"></div>
+                
+                <!-- text -->
+                <div id="level-text"><p>Level</p></div>
+                <div id="level-display"><p>X</p></div>
+                <div id="score-text"><p>Score</p></div>
+                <div id="score-display"><p>X</p></div>
+                <!-- end text-->
+
+                <div id="game-area-container">
+                    <div id="game-area">
+                        <button id="pink-off" type="button" class="btnstyle" onclick="pink()">
+                            <img src="images/pink-off-btn.svg" alt="pink off button" width="150" height="150">
+                        </button>
+                        <button id="teal-off" type="button" class="btnstyle" onclick="teal()">
+                            <img src="images/teal-off-btn.svg" alt="teal off button" width="150" height="150">
+                        </button>
+                        <button id="green-off" type="button" class="btnstyle" onclick="green()">
+                            <img src="images/green-off-btn.svg" alt="green off button" width="150" height="150">
+                        </button>
+                        <button id="red-off" type="button" class="btnstyle" onclick="red()">
+                            <img src="images/red-off-btn.svg" alt="red off button" width="150" height="150">
+                        </button>
+                        <button id="blue-off" type="button" class="btnstyle" onclick="blue()">
+                            <img src="images/blue-off-btn.svg" alt="blue off button" width="150" height="150">
+                        </button>
+                        <button id="yellow-off" type="button" class="btnstyle" onclick="yellow()">
+                            <img src="images/yellow-off-btn.svg" alt="yellow off button" width="150" height="150">
+                        </button>
+                    </div>
+                </div>
+                <div id="game-end"><img src="images/game-end-100.jpg" alt="end screen" width="1200" height="750"></div>
                 <div id="restart" class="btn"><img src="images/restart-btn.svg" alt="restart button" width="154" height="154"></div>
                 <div id="ad-btn" class="btn"><img src="images/ad-btn.svg" alt="ad button" width="200" height="154"></div>
-
-            </div>
-            <div id="game-area">
-                <button id="pink-off" type="button" onclick="pink()">
-                    <img src="images/pink-off-btn.svg" alt="pink off button" width="150" height="150">
-                </button>
-                <button id="teal-off" type="button" onclick="teal()">
-                    <img src="images/teal-off-btn.svg" alt="teal off button" width="150" height="150">
-                </button>
-                <button id="green-off" type="button" onclick="green()">
-                    <img src="images/green-off-btn.svg" alt="green off button" width="150" height="150">
-                </button>
-                <button id="red-off" type="button" onclick="red()">
-                    <img src="images/red-off-btn.svg" alt="red off button" width="150" height="150">
-                </button>
-                <button id="blue-off" type="button" onclick="blue()">
-                    <img src="images/blue-off-btn.svg" alt="blue off button" width="150" height="150">
-                </button>
-                <button id="yellow-off" type="button" onclick="yellow()">
-                    <img src="images/yellow-off-btn.svg" alt="yellow off button" width="150" height="150">
-                </button>
-
-
+                <div id="home" class="btn"><img src="images/home-btn.svg" alt="home button" width="152" height="152"></div>
+                <div id="large-note-1"><img src="images/large-note-1.svg" alt="large note 1" width="138" height="143"></div>
+                <div id="large-note-2"><img src="images/large-note-2.svg" alt="large note 2" width="138" height="143"></div>
+                <div id="large-note-3"><img src="images/large-note-3.svg" alt="large note 3" width="138" height="143"></div>
+                <div id="large-note-4"><img src="images/large-note-4.svg" alt="large note 4" width="138" height="143"></div>
             </div>
         </main>
     </div>
