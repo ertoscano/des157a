@@ -1,0 +1,131 @@
+body{
+    background-color: #efe5d5;
+    cursor: url('images/pick.svg'), auto;
+}
+
+#home-overlay{
+    display: block;
+    background-color: #492207;
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    opacity: 74%;
+}
+
+/* #guitar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+} */
+
+#game-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    position: relative;
+    max-width: 1200px;
+    max-height: 750px;
+    margin: 0 auto 0 auto;
+}
+
+#orange-note-1 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#orange-note-2 {
+    position: absolute;
+    top: 36%;
+    right:0%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    transition: all 0.3s ease;
+    transform-origin: center;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    display: block;
+    scale: 102%;
+    background-color: #362509;
+    box-shadow: -6px 6px 5px 5px #362509;
+}
+
+#play{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    position: absolute;
+    top: 79%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#how {
+    position: absolute;
+    top: 79%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+#add-heart {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+    position: absolute;
+    top: 15%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#restart {
+    position: absolute;
+    top: 70%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
+}
+
+#ad-btn {
+    position: absolute;
+    top: 70%;
+    left: 58.5%;
+    transform: translate(-50%, -50%);
+}
+
+#game-area{
+    position: relative;
+    max-width: 586px;
+    max-height: 750px;
+    margin: 0 auto 0 auto;
+}
+
+#pink-off{
+    top: 70%;
+    left: 58.5%;
+    transform: translate(-50%, -50%);
+}
