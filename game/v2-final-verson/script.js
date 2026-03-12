@@ -82,7 +82,11 @@
     const infoExplain = document.querySelector('#info-explain');
     const howTo = document.querySelector('#how-to-play');
     const restartBtn = document.querySelector('#restart');
+    const adBtn = document.querySelector('#ad-btn')
 
+    adBtn.addEventListener('click', function(){
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    })
     
 
     restartBtn.addEventListener('click', function(event){
