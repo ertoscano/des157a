@@ -1,0 +1,445 @@
+body{
+    background-color: #efe5d5;
+    cursor: url('images/pick.svg'), auto;
+}
+
+#home-overlay{
+    display: block;
+    background-color: #492207;
+    width: 1200px;
+    height: 750px;
+    position: absolute;
+    opacity: 0.74;
+}
+
+#game-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home-screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 750px;
+}
+
+#game-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 750px;
+}
+
+#end-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 750px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+#logo{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    position: relative;
+    max-width: 1200px;
+    max-height: 750px;
+    margin: 0 auto 0 auto;
+}
+
+#orange-note-1 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#orange-note-2 {
+    position: absolute;
+    top: 36%;
+    right:0%;
+    transform: translate(-50%, -50%);
+}
+
+#info-explain {
+    font-family: "BBH Hegarty";
+    font-size: 25px;
+    position: absolute;
+    top: 111%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #362509;
+    padding: 0% 5% 0 5%;
+    background-color: #f9f6ed;;
+    border: 50px #c96a1c;
+}
+
+#how-to-play {
+    font-family: "BBH Hegarty";
+    font-size: 25px;
+    position: absolute;
+    top: 141%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #362509;
+    padding: 0% 5% 0 5%;
+    background-color: #f9f6ed;
+    ;
+    border: 50px #c96a1c;
+}
+
+#level-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 72%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#level-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 84%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#score-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#score-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 47%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#final-level-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 42%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#final-level-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+#final-score-text {
+    font-family: "BBH Hegarty";
+    font-size: 65px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+    text-align: center;
+}
+
+#final-score-text p {
+    line-height: 57px;
+}
+
+#final-score-display {
+    font-family: "BBH Hegarty";
+    font-size: 106px;
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #f9f6ed;
+}
+
+.btn{
+    transition: all 0.3s ease;
+    transform-origin: center;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    display: block;
+    scale: 102%;
+    background-color: #362509;
+    box-shadow: -6px 6px 5px 5px #362509;
+}
+
+.btnstyle {
+    border-radius: 50%;
+    border: none;
+}
+
+.on {
+    opacity: 50%;
+}
+
+#heart1 {
+    position: absolute;
+    top: 35%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#heart2 {
+    position: absolute;
+    top: 47.5%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#heart3 {
+    position: absolute;
+    top: 60%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#note-1{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#note-2 {
+    position: absolute;
+    top: 76%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+#note-3 {
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+#note-4 {
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+#game div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition: all 500ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+#game-area-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 500ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#pad1:hover {
+    cursor: url('images/pink-hover-pick.svg'), auto;
+}
+
+#pad2:hover {
+    cursor: url('images/teal-hover-pick.svg'), auto;
+}
+
+#pad3:hover {
+    cursor: url('images/green-hover-pick.svg'), auto;
+}
+
+#pad4:hover {
+    cursor: url('images/red-hover-pick.svg'), auto;
+}
+
+#pad5:hover {
+    cursor: url('images/blue-hover-pick.svg'), auto;
+}
+
+#pad6:hover {
+    cursor: url('images/yellow-hover-pick.svg'), auto;
+}
+
+
+#pad1 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#pad2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#pad3 {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+#pad4 {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+#pad5 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#pad6 {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+
+#play{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    position: absolute;
+    top: 79%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#how {
+    position: absolute;
+    top: 79%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+#add-heart {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+    position: absolute;
+    top: 15%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#home-2 {
+    position: absolute;
+    top: 15%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+#restart {
+    position: absolute;
+    top: 71%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
+}
+
+#ad-btn {
+    position: absolute;
+    top: 71%;
+    left: 58.5%;
+    transform: translate(-50%, -50%);
+}
+
+#game-area{
+    position: relative;
+    width: 435px;
+    height: 312px;
+    margin: 0 auto 0 auto;
+}
+
+#game-end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-1 {
+    position: absolute;
+    top: 52%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-2 {
+    position: absolute;
+    top: 74%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-3 {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+#large-note-4 {
+    position: absolute;
+    top: 80%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
